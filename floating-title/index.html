@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: #1c1c19;
+        }
+        .hero {
+            height: 100vh;
+            position: relative;
+        }
+        .hero--image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+        <floating-title text="Skorpia" color="orange"></floating-title>
+        <img src="https://images.unsplash.com/photo-1635349429385-201ee3a51b88?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYzNjQ2MzQ2OA&ixlib=rb-1.2.1&q=80&w=1920" alt="" class="hero--image">
+    </div>
+    <main style="height: 100vh;"></main>
+
+    <script src="./floating-title.js"></script>
+</body>
+
+</html>
